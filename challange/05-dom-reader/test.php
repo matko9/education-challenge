@@ -1,16 +1,6 @@
 <?php
 
-function assertTrue ($condition, $message = 'Assertation failure') {
-  if (!$condition)
-    throw new Exception($message);
-}
-
-if (!isset($argv[1])) {
-  echo "Example usage: php test.php solution/working-example.php\n";
-  return;
-}
-
-include __DIR__ . '/' . $argv[1];
+require __DIR__ . '/../../library/test.php';
 
 $dom = new dom();
 
