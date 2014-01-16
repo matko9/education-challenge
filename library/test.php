@@ -7,7 +7,7 @@ function assertTrue ($condition, $message = 'Assertation failure') {
 
 if (!isset($argv[1])) {
   echo "Example usage: php test.php solution/working-example.php\n";
-  return;
+  exit;
 }
 
-include $argv[1];
+require $argv[1];
