@@ -10,4 +10,9 @@ their dificutly.
 To pass the challange you must create your own solution that will pass the test. What it is expected from a
 solution to do and how it is interacted with you can find by view the `test.php` file.  
 
-If you execute `test.php` with your solution and it is a success then you passed the challenge. Best luck!
+If you execute `test.php` with your solution and it is a success then you passed the challenge. Best luck!  
+
+In order to test your solution execute the following:
+```shell
+php test.php solution/my-solution.php
+```
